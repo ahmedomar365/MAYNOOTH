@@ -8,6 +8,7 @@ import { SliderComponent } from './slider/slider.component';
 import { PopularCategoriesComponent } from './popular-categories/popular-categories.component';
 import { OnSaleComponent } from './on-sale/on-sale.component';
 import { FooterComponent } from './footer/footer.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './footer/footer.component';
     SliderComponent,
     PopularCategoriesComponent,
     OnSaleComponent,
-    FooterComponent
+    FooterComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
